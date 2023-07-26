@@ -1,12 +1,8 @@
 package com.ekotrope;
 
-import com.ekotrope.broken.Outer;
 import com.tngtech.archunit.core.importer.ClassFileImporter;
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
 public class ArchUnitBugReproTest {
     @Test
     public void broken() {
